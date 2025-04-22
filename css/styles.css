@@ -43,7 +43,6 @@ main {
   justify-content: center;
   align-items: center;
   color: whitesmoke;
-  /* height: 40vh; */
   height: 50vh;
   text-align: center;
   padding: 0 1rem;
@@ -109,13 +108,10 @@ h1 {
       rgba(0, 110, 255, 0) 50%,
       rgba(0, 110, 255, 0) 100%
     ),
-    url(../assets/images/ChatGPT\ Image\ FPGA\ White.png);
+    url(../assets/images/hero-nasa.jpg);
   background-size: cover;
   background-position: center;
   box-shadow: 0 4px 12px rgba(0, 110, 255, 0.4);
-}
-#services-body h1 {
-  color: #212529;
 }
 
 /* COMPANY PAGE css */
@@ -163,34 +159,4 @@ h1 {
 #chris:hover {
   transform: translateY(2px) scale(1.03); /* hover offsets initial 12px down */
   box-shadow: 0 4px 12px rgba(0, 110, 255, 0.4);
-}
-
-/* EXPAND TEST */
-/* Ensure dropdown expands on hover */
-.navbar-nav .dropdown:hover .dropdown-menu {
-  display: block;
-}
-
-.navbar-nav .dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #f8f9fa;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-/* Optional: Add transition effects for smoother hover */
-.navbar-nav .dropdown-menu {
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-  visibility: hidden;
-}
-
-.navbar-nav .dropdown:hover .dropdown-menu {
-  visibility: visible;
-  opacity: 1;
-}
-.nav-item.dropdown:hover .dropdown-menu {
-  display: block;
-  visibility: visible;
-  opacity: 1;
 }
